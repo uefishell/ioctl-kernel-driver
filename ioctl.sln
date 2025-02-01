@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ioctl-kernel", "ioctl-kernel\ioctl-kernel.vcxproj", "{2A2AC394-C7AB-4D76-BF5D-18407F44247C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ioctl-usermode", "ioctl-usermode\ioctl-usermode.vcxproj", "{BCF6DE58-258D-4D17-BAE4-83B4BA7E5C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		main|main = main|main
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2AC394-C7AB-4D76-BF5D-18407F44247C}.main|main.ActiveCfg = Release|x64
+		{2A2AC394-C7AB-4D76-BF5D-18407F44247C}.main|main.Build.0 = Release|x64
+		{BCF6DE58-258D-4D17-BAE4-83B4BA7E5C67}.main|main.ActiveCfg = Release|x64
+		{BCF6DE58-258D-4D17-BAE4-83B4BA7E5C67}.main|main.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA25327-608C-41E6-87E7-3BFCBDD54293}
+	EndGlobalSection
+EndGlobal

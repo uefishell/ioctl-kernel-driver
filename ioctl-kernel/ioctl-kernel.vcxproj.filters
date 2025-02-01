@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="core\utilities\utilities.cpp" />
+    <ClCompile Include="core\utilities\kernel\kernel.cpp" />
+    <ClCompile Include="core\requests\image-base\image-base.cpp" />
+    <ClCompile Include="core\requests\directory-table-base\dtb.cpp" />
+    <ClCompile Include="core\requests\read-write\physical\physical.cpp" />
+    <ClCompile Include="core\requests\read-write\read-memory\read-memory.cpp" />
+    <ClCompile Include="core\dispatch\dispatch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\includes.hpp" />
+    <ClInclude Include="core\utilities\utilities.hpp" />
+    <ClInclude Include="core\utilities\kernel\kernel.hpp" />
+    <ClInclude Include="dependencies\additional\definitions.hpp" />
+    <ClInclude Include="dependencies\additional\structures\structs.hpp" />
+    <ClInclude Include="core\requests\image-base\image-base.hpp" />
+    <ClInclude Include="core\requests\directory-table-base\dtb.hpp" />
+    <ClInclude Include="core\requests\read-write\physical\physical.hpp" />
+    <ClInclude Include="core\requests\read-write\read-memory\read-memory.hpp" />
+    <ClInclude Include="core\requests\requests.hpp" />
+    <ClInclude Include="core\dispatch\dispatch.hpp" />
+  </ItemGroup>
+</Project>
